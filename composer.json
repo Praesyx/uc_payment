@@ -1,0 +1,23 @@
+{
+    "name": "uc/payment-bundle",
+    "description": "Symfony 3 bundle integrate Stripe's and PayPal SDK into a Symfony project",
+    "type": "symfony-bundle",
+    "require": {
+        "symfony/symfony": "~3.0",
+        "stripe/stripe-php": "~3.23"
+    },
+    "homepage": "https://github.com/Praesyx/uc_payment-bundle",
+    "license": "GNU v3",
+    "authors": [
+        {
+            "name": "Praesyx",
+            "email": "pavel10@mail.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Uc\\PaymentBundle\\": ""
+        }
+    },
+    "minimum-stability": "dev"
+}

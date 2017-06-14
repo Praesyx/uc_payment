@@ -1,5 +1,25 @@
 # UniCenter Payment Bundle
 
+### Installation
+To install this bundle, run the command below and you will get the latest version from [Packagist][3].
+
+``` bash
+composer require uc/payment-bundle
+```
+
+Load required bundles in AppKernel.php:
+
+``` php
+// app/AppKernel.php
+public function registerBundles()
+{
+  $bundles = array(
+    // [...]
+    new Uc\PaymentBundle\UcPaymentBundle(),
+  );
+}
+```
+
 And set-up the required configuration
 
 ``` yaml

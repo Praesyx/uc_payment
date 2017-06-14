@@ -1,0 +1,8 @@
+services:
+    uc_payment.stripe.client:
+        class: Uc\PaymentBundle\Model\StripeManager
+        arguments: ['@kernel']
+
+    uc_payment.paypal.client:
+        class: Uc\PaymentBundle\Model\PayPalManager
+        arguments: ['@kernel']
